@@ -9,7 +9,6 @@ Rules and patterns for creating effective builder skills.
 ```
 skill-name/
 ├── SKILL.md              # Required - main entry point
-├── LICENSE.txt           # License file (optional)
 ├── scripts/              # Executable helper scripts
 │   └── helper.py
 ├── references/           # Additional documentation loaded on-demand
@@ -26,7 +25,6 @@ skill-name/
 ---
 name: skill-name
 description: Clear, trigger-focused description that explains WHEN to use this skill. This is what determines automatic activation.
-allowed-tools: Read, Grep, Glob, Bash, Edit, Write
 ---
 ```
 
